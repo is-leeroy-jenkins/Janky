@@ -2,10 +2,31 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
     <UserSecretsId>98b75a3f-235f-4593-b40c-439c84e13444</UserSecretsId>
+    <ApplicationIcon>Resources\Images\Github\JankyIcon.ico</ApplicationIcon>
+    <Title>Janky</Title>
+    <Authors>Terry D. Eppler</Authors>
+    <Company>Terry D. Eppler</Company>
+    <Description>Janky – A Razor Pages Starter Kit </Description>
+    <PackageIcon>JankySmall.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/is-leeroy-jenkins/Janky?tab=readme-ov-file#janky--net-8-razor-pages-starter-kit-</PackageProjectUrl>
+    <PackageTags>Razor Pages; C-Sharp</PackageTags>
   </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>True</Optimize>
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\Images\Github\JankyIcon.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.10" />
@@ -13,6 +34,13 @@
 
   <ItemGroup>
     <Folder Include="Resources\Images\GIthub\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\Images\Github\JankySmall.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
