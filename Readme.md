@@ -1,6 +1,7 @@
 # Janky – .NET 8 Razor Pages Starter Kit 🚀
 > *Spin up a production-ready ASP.NET Core app in minutes, not days.*
 
+
 **Janky** is an opinionated starter template for building **server-rendered web apps** with the
 [Razor Pages](https://learn.microsoft.com/aspnet/core/razor-pages) paradigm on **.NET 8**.  
 It rolls together the pieces you reach for on *every* green-field project—authentication,
