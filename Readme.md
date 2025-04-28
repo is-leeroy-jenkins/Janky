@@ -67,6 +67,7 @@ can focus on *your* business logic instead of yak-shaving boilerplate.
 
 ---
 
+
 ## 🚀 Getting Started
 
 ```bash
@@ -77,21 +78,21 @@ cd MyApp
 
 # 2. Restore & run
 dotnet watch                           # compiles + hot-reload
-
+```
 
 ## 🗂 Folder Structure
 
-> 
-    src/
-    ├─ MyApp.Web/              # Razor Pages project
-    │  ├─ Pages/               # .cshtml + PageModels
-    │  ├─ Components/          # ViewComponents & partials
-    │  ├─ Api/                 # Minimal API endpoints
-    │  └─ Assets/              # Tailwind input CSS, TS, images
-    ├─ MyApp.Core/             # Domain & service layer
-    ├─ MyApp.Infrastructure/   # EF Core DbContext, repositories
-    tests/                     # Unit + integration tests
-    .github/                   # CI/CD workflows
+>src/
+├─ MyApp.Web/              # Razor Pages project
+│  ├─ Pages/               # .cshtml + PageModels
+│  ├─ Components/          # ViewComponents & partials
+│  ├─ Api/                 # Minimal API endpoints
+│  └─ Assets/              # Tailwind input CSS, TS, images
+├─ MyApp.Core/             # Domain & service layer
+├─ MyApp.Infrastructure/   # EF Core DbContext, repositories
+tests/                     # Unit + integration tests
+.github/                   # CI/CD workflows
+
 
 
 ## Configuration
@@ -112,6 +113,7 @@ dotnet test | Run all tests
 docker compose up dev | Start dev stack (DB + app)
 ./scripts/migrate.sh | Apply EF Core migrations in container
 
+
 ## 🗺 Roadmap
 
 - Blazor Hybrid starter variant
@@ -119,6 +121,7 @@ docker compose up dev | Start dev stack (DB + app)
 - GraphQL endpoint scaffold
 - VS Code Dev Container
 
+- 
 ## 🤝 Contributing
 
 - Fork → Branch → PR
