@@ -36,14 +36,14 @@ can focus on *your* business logic instead of yak-shaving boilerplate.
 
 ## Table of Contents
 
-1. [Features](#features)
-2. [Getting Started](#getting-started)
-3. [Folder Structure](#folder-structure)
-4. [Configuration](#configuration)
-5. [Scripts & Tooling](#scripts--tooling)
-6. [Roadmap](#roadmap)
-7. [Contributing](#contributing)
-8. [License](#license)
+1. [Features](https://github.com/is-leeroy-jenkins/Janky/tree/master?tab=readme-ov-file#-features)
+2. [Getting Started](https://github.com/is-leeroy-jenkins/Janky/tree/master?tab=readme-ov-file#-getting-started)
+3. [Folder Structure](https://github.com/is-leeroy-jenkins/Janky/tree/master?tab=readme-ov-file#-folder-structure)
+4. [Configuration](https://github.com/is-leeroy-jenkins/Janky/tree/master?tab=readme-ov-file#configuration)
+5. [Scripts & Tooling](https://github.com/is-leeroy-jenkins/Janky/tree/master?tab=readme-ov-file#-scripts--tooling)
+6. [Roadmap](https://github.com/is-leeroy-jenkins/Janky/tree/master?tab=readme-ov-file#-roadmap)
+7. [Contributing](https://github.com/is-leeroy-jenkins/Janky/tree/master?tab=readme-ov-file#-contributing)
+8. [License](https://github.com/is-leeroy-jenkins/Janky/blob/master/LICENSE.txt)
 
 ---
 
@@ -124,7 +124,7 @@ docker compose up dev | Start dev stack (DB + app)
 - GraphQL endpoint scaffold
 - VS Code Dev Container
 
-- 
+
 ## 🤝 Contributing
 
 - Fork → Branch → PR
