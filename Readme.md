@@ -1,6 +1,8 @@
-# Janky – .NET 8 Razor Pages Starter Kit 🚀
-> *Spin up a production-ready ASP.NET Core app in minutes, not days.*
 ![](https://github.com/is-leeroy-jenkins/Janky/blob/master/Resources/Images/GIthub/JankyProject.png)
+
+# Janky – A C# Razor Pages Starter Kit 🚀
+> *Spin up a production-ready ASP.NET Core app in minutes, not days.*
+
 
 **Janky** is an opinionated starter template for building **server-rendered web apps** with the
 [Razor Pages](https://learn.microsoft.com/aspnet/core/razor-pages) paradigm on **.NET 8**.  
@@ -16,7 +18,7 @@ can focus on *your* business logic instead of yak-shaving boilerplate.
 | *“CI/CD takes half a day to script.”* | GitHub Actions workflow builds, tests, lints, and pushes a distroless Docker image on every commit. |
 | *“I need to demo fast, but not pay for that speed later.”* | Clean vertical slices (`Web / Core / Infrastructure`), DDD-friendly structure—prototype now, scale later. |
 
-### When should you reach for Janky?
+### When should you be Janky?
 * **Internal tools** – dashboards, CRUD admin portals, staff portals  
 * **Micro-SaaS MVPs** – subscription paywall ready (just hook your payment provider)  
 * **Marketing sites** – static-ish pages with islands of interactivity (htmx or Fetch)  
