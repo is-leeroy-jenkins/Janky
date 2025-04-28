@@ -82,7 +82,7 @@ dotnet watch                           # compiles + hot-reload
 
 ## 🗂 Folder Structure
 
->src/
+```src/
 ├─ MyApp.Web/              # Razor Pages project
 │  ├─ Pages/               # .cshtml + PageModels
 │  ├─ Components/          # ViewComponents & partials
@@ -92,12 +92,14 @@ dotnet watch                           # compiles + hot-reload
 ├─ MyApp.Infrastructure/   # EF Core DbContext, repositories
 tests/                     # Unit + integration tests
 .github/                   # CI/CD workflows
+```
 
 
 
 ## Configuration
 
 🔧 Setting | 📄 Location | 📝 Purpose
+-----------|-------------|----------------
 ConnectionString | appsettings*.json | DB connection (SQLite default)
 Serilog | appsettings*.json | Console + OTLP exporter
 FeatureFlags | appsettings.json | Toggle optional modules
@@ -107,6 +109,7 @@ Secrets | dotnet user-secrets | Safe local secrets storage
 ## 🏃 Scripts & Tooling
 
 🔨 Command | 💬 Description
+-----------|----------------
 dotnet watch | Rebuild, Tailwind hot-reload
 npm run tailwind:build | One-off CSS build (CI)
 dotnet test | Run all tests
