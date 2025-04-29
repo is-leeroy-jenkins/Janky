@@ -75,7 +75,7 @@
 	<s:Boolean x:Key="/Default/CodeStyle/EditorConfig/ShowEditorConfigStatusBarIndicator/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeStyle/EditorConfig/SyncToVisualStudio/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/CodeStyle/FileHeader/FileHeaderText/@EntryValue">******************************************************************************************&#xD;
-    Assembly:                Janky&#xD;
+    Assembly:                Badger&#xD;
     Author:                  Terry D. Eppler&#xD;
     Created:                 ${CurrentDate.Month}-${CurrentDate.Day}-${CurrentDate.Year}&#xD;
 &#xD;
@@ -83,7 +83,8 @@
     Last Modified On:        ${CurrentDate.Month}-${CurrentDate.Day}-${CurrentDate.Year}&#xD;
 ******************************************************************************************&#xD;
 &lt;copyright file="${File.FileName}" company="Terry D. Eppler"&gt;&#xD;
-    Janky is Blazor project template&#xD;
+    Badger is a budget execution &amp; data analysis tool for EPA analysts &#xD;
+    based on WPF, Net 6, and written in C#.&#xD;
     &#xD;
     Copyright ©  2020 Terry D. Eppler&#xD;
 &#xD;
