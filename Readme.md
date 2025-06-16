@@ -1,7 +1,7 @@
-##### _
+####### Janky
 ![](https://github.com/is-leeroy-jenkins/Janky/blob/master/Resources/Images/GIthub/JankyProject.png)
 
-# Janky – A C# Razor Pages Starter Kit 🚀
+#### A C# Razor Pages Starter Kit 🚀
 > *Spin up a production-ready ASP.NET Core app in minutes, not days.*
 
 
