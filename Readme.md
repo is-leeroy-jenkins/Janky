@@ -1,4 +1,5 @@
-####### Janky
+Janky
+
 ![](https://github.com/is-leeroy-jenkins/Janky/blob/master/Resources/Images/GIthub/JankyProject.png)
 
 #### A C# Razor Pages Starter Kit 🚀
