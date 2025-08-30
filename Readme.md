@@ -34,7 +34,7 @@ can focus on *your* business logic instead of yak-shaving boilerplate.
 5. **Prod-minded** – health checks, metrics, dockerisation, and security headers baked in.
 
 <br/>
----
+
 
 ## Table of Contents
 
@@ -47,7 +47,7 @@ can focus on *your* business logic instead of yak-shaving boilerplate.
 7. [Contributing](https://github.com/is-leeroy-jenkins/Janky/tree/master?tab=readme-ov-file#-contributing)
 8. [License](https://github.com/is-leeroy-jenkins/Janky/blob/master/LICENSE.txt)
 
----
+
 
 ## ✨ Features
 
@@ -67,7 +67,7 @@ can focus on *your* business logic instead of yak-shaving boilerplate.
 | 🌍 **I18n**              | Resource-based localization boilerplate                                        |
 | 🔑 **Secrets**           | First-class `dotnet user-secrets` support                                      |
 
----
+
 
 
 ## 🚀 Getting Started
@@ -127,9 +127,6 @@ docker compose up dev | Start dev stack (DB + app)
 - VS Code Dev Container
 
 
-## 🤝 Contributing
+## 📜 [License](https://github.com/is-leeroy-jenkins/Janky/blob/master/LICENSE.txt)
 
-- Fork → Branch → PR
-- dotnet test – all must pass
-- Follow the included .editorconfig
-- Sign commits (git commit -s) and link any issues
+- MIT © 2022 Terry D. Eppler
