@@ -129,4 +129,4 @@ docker compose up dev | Start dev stack (DB + app)
 
 ## 📜 [License](https://github.com/is-leeroy-jenkins/Janky/blob/master/LICENSE.txt)
 
-- MIT © 2022 Terry D. Eppler
+- MIT © 2020 Terry D. Eppler
